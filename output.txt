@@ -1,3 +1,4 @@
-6 isn't prime
+8765
 
-Executed In: 0.169 ms
+
+Executed In: 0.354 ms

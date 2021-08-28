@@ -1,4 +1,4 @@
-// Problem Link - https://prepinsta.com/c-program/prime-number-or-not-in-c-programming/
+// Problem Link - 
 /* By Abhirup Majumder */
 #include<bits/stdc++.h>
 //#include<ext/pb_ds/assoc_container.hpp>
@@ -63,18 +63,9 @@ int main(int argc, char const *argv[]) {
     // Write your code here....
     int n;
     cin >> n;
-    bool flag=false;
-    int i=2;
-    for(i=2;i<n;i++){
-        if(n%i==0) {
-            flag=true;
-            break;
-            }
-    }
-    if(flag==true) cout << n << " isn't prime";
-    else cout << n << " is prime";
-
-
+    string s=to_string(n);
+    reverse(s.begin(),s.end());
+    cout << stoi(s) << endl;
 
     #ifndef ONLINE_JUDGE 
       clock_t end = clock();
