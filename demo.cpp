@@ -3,10 +3,10 @@ using namespace std;
 // iostream -> header file
 // main function
 int main(){
-    double p;
-    cin >> p;
-    cout << p;
-    cout << "\nI'm learning cpp";
+    int n,m;
+    // geline();
+    cin >> n >> m;
+    cout << n+m;
     // c=console
     // out=output
     // :: -> scope resolution
