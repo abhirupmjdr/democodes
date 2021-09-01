@@ -67,7 +67,7 @@ int main(int argc, char const *argv[]) {
     int arr[n],ans[n];
     loop(i,0,n-1) cin>> arr[i];
     ans[0]=arr[n-1];
-    loop(i,1,n-2) ans[i]=arr[i-1];
+    loop(i,1,n-1) ans[i]=arr[i-1];
     for(int el: ans) cout << el << " ";
 
 
