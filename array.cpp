@@ -7,6 +7,7 @@ int main(){
     n=5;
     int arr[n];
     for(int i=0;i<5;i++) arr[i]=1;
+    memset(arr,1,sizeof arr);
 /* 
     //taking input
     for(int i=0;i<5;i++){
