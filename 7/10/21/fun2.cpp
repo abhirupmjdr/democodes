@@ -15,9 +15,9 @@ int main(){
     cout << "------before swap-------\n";
     cout << a << " " << b;
     cout << "\n-------after swap--------\n";
-    myswap(a,b);
-   /*  a=a+b;
-    b=a-b;
-    a=a-b; */
+    myswap(b,a);
+    // a=a+b;
+    // b=a-b;
+    // a=a-b;
     cout << a << " " << b;  
 }
